@@ -1,6 +1,0 @@
-steps\Hook.class
-pages\LoginPage.class
-steps\LoginStep.class
-base\BaseUtil.class
-runner\TestRunner.class
-steps\LoginStep$User.class

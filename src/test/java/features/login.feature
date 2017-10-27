@@ -11,13 +11,13 @@ Feature: LoginFeature
     And I click on login
     Then I should see the login page
 
-  Scenario Outline: Login with correct username and password using Scenario Outline
-    Given user is on login page
-    When I enter <username> , <password> and <companyid>
-    And I click on login
-    Then I should see the login page
-
-    Examples:
-      | username | password | companyid|
-      | sabha    | sabha    |3017634    |
+#  Scenario Outline: Login with correct username and password using Scenario Outline
+#    Given user is on login page
+#    When I enter <username> , <password> and <companyid>
+#    And I click on login
+#    Then I should see the login page
+#
+#    Examples:
+#      | username | password | companyid|
+#      | sabha    | sabha    |3017634    |
 
