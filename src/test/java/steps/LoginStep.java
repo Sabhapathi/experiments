@@ -92,7 +92,7 @@ public class LoginStep extends BaseUtil {
     @Then("^I should see the login page$")
     public void iShouldSeeTheLoginPage() throws Throwable {
         WebElement myDynamicElement = (new WebDriverWait(base.Driver, 10))
-                .until(ExpectedConditions.presenceOfElementLocated(By.className("companyInfoid")));
+                .until(ExpectedConditions.presenceOfElementLocated(By.className("companyInfo")));
         Assert.assertEquals("Login Successful first time", base.Driver.findElement(By.className("companyInfo")).isDisplayed(), true);
     }
 
