@@ -97,7 +97,6 @@ public class Hook extends BaseUtil {
         base.Driver.close();
         base.Driver.quit();
         mobiledriver.closeApp();
-        mobiledriver.close();
         mobiledriver.quit();
     }
 
